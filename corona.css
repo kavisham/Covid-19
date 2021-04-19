@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.nav_style{
+	background-color:#666699;
+}
+.nav_style a{
+	color: white;
+}
+
+.main_header .row .leftside{
+	padding-top: 5rem;
+}
+
+.main_header .row .rightside h1{
+	padding: 3rem;
+	font-size: 3rem;
+}
+.main_header .row .rightside .corona_anim{
+	animation: gocorona 3s linear infinite;
+	
+}
+
+@keyframes gocorona
+{
+	0%{ transform: rotate(0); }
+	100%{ transform: rotate(360deg); }
+} 
+.main_header .row .leftside .corona_anim1{
+	animation: heartbeat 5s linear infinite;
+}
+@keyframes heartbeat
+{
+	0%{ transform: scale(.75); }
+	20%{ transform:scale(1); }
+	40%{ transform: scale(.75); }
+	60%{ transform:scale(1); }
+	80%{ transform: scale(.75); }
+	100%{ transform:scale(1); }
+
+} 
+/*.corona_update{
+
+}
+*/
+.corona_update .updates{
+	margin-bottom: 3rem;
+}
+.corona_update .updates .first{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5rem;
+	color: orange;
+}
+.second h1{
+	text-align: center;
+}
+
+.sub_section h1{
+	font-size: 3rem;
+}
+.sub_section{
+	background-color: #f5f5f0; 
+}
+.sub_section3{
+	background-color: #f5f5f0;
+}
+.sub_section2 h1{
+	font-size: 3rem;
+}
+
+.footer_style{
+	background-color: #666699;
+}
+
+.footer_style p{
+	margin-bottom: 0;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
